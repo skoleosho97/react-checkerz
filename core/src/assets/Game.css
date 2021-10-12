@@ -1,0 +1,37 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+}
+
+.board, .details {
+    margin: 0 auto;
+    align-self: center;
+}
+
+.square {
+    margin: 2px;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: #C79D73;
+}
+
+.light {
+    background-color: #EACCAD;
+}
+
+.status {
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+}
+
+.player-turn-box {
+    width: 100px;
+    height: 100px;
+}
